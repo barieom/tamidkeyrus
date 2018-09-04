@@ -25,7 +25,7 @@ p {
 	.hide-small{display:none}
 	.image-overlay-center {
 		position: absolute;
-	    top: 18%!important;
+	    top: 48%!important;
 	    left: 50%;
 	    transform: translate(-50%, -50%);
 	    width:20em!important;
@@ -48,6 +48,11 @@ p {
 	.intro-head {
 		margin-left:-1em!important;
 		margin-right:-1em!important;
+	}
+	.logo {
+		display: block;
+		height:5.7em!important;
+		width:100%;
 	}
 }
 
@@ -117,9 +122,9 @@ a {
 
 .content {
 	/*margin-top:1em; margin-bottom: 1em;*/
-	padding:3em;
-	padding-right:12em;
-	padding-left:12em;
+	padding:5em;
+	padding-right:28em;
+	padding-left:28em;
 	background-color:#222222;
 }
 
