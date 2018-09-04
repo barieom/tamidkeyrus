@@ -5,6 +5,7 @@ const favicon = require('serve-favicon');
 
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname)));
+app.use(favicon(path.join(__dirname, '/assets/images/t.ico')));
 
 
 app.get('/',function(req,res){

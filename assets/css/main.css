@@ -57,7 +57,7 @@ p {
 }
 
 .title>h1 {
-	font-size:3em;
+	font-size:1.8em;
 	font-weight:1000;
 }
 
@@ -107,6 +107,12 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     width:40em;
+}
+
+.logo {
+	display: block;
+	height:7em;
+	width:100%;
 }
 
 .content {
