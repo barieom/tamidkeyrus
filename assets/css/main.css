@@ -13,6 +13,12 @@ p {
 	text-align:justify;
 }
 
+@media (max-width:900px) {
+	.image-overlay-center {
+		top: 38%!important;
+	}
+}
+
 @media (min-width:993px) {
 	.modal-content{width:900px}
 	.hide-large{display:none}
@@ -51,7 +57,7 @@ p {
 	}
 	.logo {
 		display: block;
-		height:5.7em!important;
+		height:4.2em!important;
 		width:100%;
 	}
 }
@@ -123,8 +129,8 @@ a {
 .content {
 	/*margin-top:1em; margin-bottom: 1em;*/
 	padding:5em;
-	padding-right:28em;
-	padding-left:28em;
+	padding-right:18em;
+	padding-left:18em;
 	background-color:#222222;
 }
 
